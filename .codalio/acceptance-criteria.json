@@ -1,0 +1,790 @@
+{
+  "criteria": [
+    {
+      "id": "AC-1",
+      "name": "Only content_team_member can access /create-post.",
+      "user_story": "Create and Publish Text Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/post/CreatePost.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-2",
+      "name": "User can enter and format text content using a rich text editor.",
+      "user_story": "Create and Publish Text Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/post/CreatePost.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-3",
+      "name": "User can save a post as a draft.",
+      "user_story": "Create and Publish Text Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/post/CreatePost.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-4",
+      "name": "User can preview the post before publishing.",
+      "user_story": "Create and Publish Text Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/post/CreatePost.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-5",
+      "name": "User can publish the post, making it live.",
+      "user_story": "Create and Publish Text Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/post/CreatePost.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-6",
+      "name": "Published posts are visible on the blog.",
+      "user_story": "Create and Publish Text Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/post/CreatePost.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-7",
+      "name": "The data model stores approved and the application uses it as described in this story.",
+      "user_story": "Create and Publish Text Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "server/.rhino/blueprints/posts.yaml (or respective model)",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-8",
+      "name": "The data model stores profile completed and the application uses it as described in this story.",
+      "user_story": "Create and Publish Text Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "server/.rhino/blueprints/posts.yaml (or respective model)",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-9",
+      "name": "Only content_team_member can edit published posts.",
+      "user_story": "Edit Existing Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/post/CreatePost.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-10",
+      "name": "User can select a published post from a list and enter edit mode.",
+      "user_story": "Edit Existing Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/post/CreatePost.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-11",
+      "name": "User can modify text and media within the post.",
+      "user_story": "Edit Existing Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/post/CreatePost.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-12",
+      "name": "User can save changes, which are immediately reflected on the live blog.",
+      "user_story": "Edit Existing Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/post/CreatePost.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-13",
+      "name": "Only content_team_member can access /media-library.",
+      "user_story": "Upload Video Content",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/media/MediaLibrary.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/videos_test.rb"
+    },
+    {
+      "id": "AC-14",
+      "name": "The app provides an upload UI for video data, accepting MP4, MOV, and AVI formats, and visibly confirms a successful import.",
+      "user_story": "Upload Video Content",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/media/MediaLibrary.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/videos_test.rb"
+    },
+    {
+      "id": "AC-15",
+      "name": "User can add a title and description to the uploaded video.",
+      "user_story": "Upload Video Content",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/media/MediaLibrary.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/videos_test.rb"
+    },
+    {
+      "id": "AC-16",
+      "name": "Uploaded videos are stored in the media library.",
+      "user_story": "Upload Video Content",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/media/MediaLibrary.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/videos_test.rb"
+    },
+    {
+      "id": "AC-17",
+      "name": "The data model stores duration and the application uses it as described in this story.",
+      "user_story": "Upload Video Content",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "server/.rhino/blueprints/posts.yaml (or respective model)",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/videos_test.rb"
+    },
+    {
+      "id": "AC-18",
+      "name": "The data model stores url and the application uses it as described in this story.",
+      "user_story": "Upload Video Content",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "server/.rhino/blueprints/posts.yaml (or respective model)",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/videos_test.rb"
+    },
+    {
+      "id": "AC-19",
+      "name": "Only content_team_member can embed videos.",
+      "user_story": "Embed Video in Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/media/MediaLibrary.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-20",
+      "name": "User can select an uploaded video from the media library within the post editor.",
+      "user_story": "Embed Video in Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/media/MediaLibrary.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-21",
+      "name": "The selected video is correctly embedded and displayed in the post preview.",
+      "user_story": "Embed Video in Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/media/MediaLibrary.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-22",
+      "name": "Embedded videos play correctly on the published blog post.",
+      "user_story": "Embed Video in Post",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/media/MediaLibrary.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-23",
+      "name": "Unauthenticated users are redirected to /login when accessing /admin/dashboard.",
+      "user_story": "Admin Login",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/auth_test.rb"
+    },
+    {
+      "id": "AC-24",
+      "name": "User can enter email and password on the login page.",
+      "user_story": "Admin Login",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/auth_test.rb"
+    },
+    {
+      "id": "AC-25",
+      "name": "Successful login redirects admin to /admin/dashboard.",
+      "user_story": "Admin Login",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/auth_test.rb"
+    },
+    {
+      "id": "AC-26",
+      "name": "Failed login attempts display an error message.",
+      "user_story": "Admin Login",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/auth_test.rb"
+    },
+    {
+      "id": "AC-27",
+      "name": "Only admin can access /admin/users.",
+      "user_story": "Manage Content Team Members",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/users_test.rb"
+    },
+    {
+      "id": "AC-28",
+      "name": "Admin can view a list of existing content_team_member accounts.",
+      "user_story": "Manage Content Team Members",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/users_test.rb"
+    },
+    {
+      "id": "AC-29",
+      "name": "Admin can create a new content_team_member account with a name, email, and password.",
+      "user_story": "Manage Content Team Members",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/users_test.rb"
+    },
+    {
+      "id": "AC-30",
+      "name": "Admin can edit an existing content_team_member's details.",
+      "user_story": "Manage Content Team Members",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/users_test.rb"
+    },
+    {
+      "id": "AC-31",
+      "name": "Admin can deactivate or delete a content_team_member account.",
+      "user_story": "Manage Content Team Members",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/users_test.rb"
+    },
+    {
+      "id": "AC-32",
+      "name": "The data model stores first name and the application uses it as described in this story.",
+      "user_story": "Manage Content Team Members",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "server/.rhino/blueprints/posts.yaml (or respective model)",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/users_test.rb"
+    },
+    {
+      "id": "AC-33",
+      "name": "The data model stores last name and the application uses it as described in this story.",
+      "user_story": "Manage Content Team Members",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "server/.rhino/blueprints/posts.yaml (or respective model)",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/users_test.rb"
+    },
+    {
+      "id": "AC-34",
+      "name": "User can click a logout button.",
+      "user_story": "User Logout",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/auth/Login.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/auth_test.rb"
+    },
+    {
+      "id": "AC-35",
+      "name": "Successful logout redirects the user to /login.",
+      "user_story": "User Logout",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/auth/Login.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/auth_test.rb"
+    },
+    {
+      "id": "AC-36",
+      "name": "After logout, the user cannot access protected routes without re-authenticating.",
+      "user_story": "User Logout",
+      "phase": "Phase 1: Minimum Viable Product (MVP)",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/auth/Login.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/auth_test.rb"
+    },
+    {
+      "id": "AC-37",
+      "name": "Only content_team_member can access /analytics.",
+      "user_story": "View Content Performance Metrics",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/analytics/Analytics.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/analytics_test.rb"
+    },
+    {
+      "id": "AC-38",
+      "name": "Dashboard displays total views, unique visitors, and engagement rate for all content.",
+      "user_story": "View Content Performance Metrics",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/analytics_test.rb"
+    },
+    {
+      "id": "AC-39",
+      "name": "Metrics are presented in an easy-to-understand visual format (e.g., charts, graphs).",
+      "user_story": "View Content Performance Metrics",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/analytics_test.rb"
+    },
+    {
+      "id": "AC-40",
+      "name": "User can see performance metrics for individual posts.",
+      "user_story": "View Content Performance Metrics",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/post/CreatePost.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/analytics_test.rb"
+    },
+    {
+      "id": "AC-41",
+      "name": "Only content_team_member can filter analytics data.",
+      "user_story": "Filter Analytics Data",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/analytics/Analytics.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/analytics_test.rb"
+    },
+    {
+      "id": "AC-42",
+      "name": "User can select a custom date range to view data.",
+      "user_story": "Filter Analytics Data",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/analytics/Analytics.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/analytics_test.rb"
+    },
+    {
+      "id": "AC-43",
+      "name": "User can filter data to show only video posts or text posts.",
+      "user_story": "Filter Analytics Data",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/media/MediaLibrary.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/analytics_test.rb"
+    },
+    {
+      "id": "AC-44",
+      "name": "Filtered data updates the dashboard in real-time.",
+      "user_story": "Filter Analytics Data",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/analytics/Analytics.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/analytics_test.rb"
+    },
+    {
+      "id": "AC-45",
+      "name": "The data model stores event type and the application uses it as described in this story.",
+      "user_story": "Filter Analytics Data",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "server/.rhino/blueprints/posts.yaml (or respective model)",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/analytics_test.rb"
+    },
+    {
+      "id": "AC-46",
+      "name": "Only admin can access /admin/integrations.",
+      "user_story": "Connect to Marketing Tools",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/models/post_test.rb"
+    },
+    {
+      "id": "AC-47",
+      "name": "Admin can view a list of available marketing tool integrations (e.g., Mailchimp, HubSpot).",
+      "user_story": "Connect to Marketing Tools",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/models/post_test.rb"
+    },
+    {
+      "id": "AC-48",
+      "name": "Admin can configure API keys or authentication tokens for selected integrations.",
+      "user_story": "Connect to Marketing Tools",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/models/post_test.rb"
+    },
+    {
+      "id": "AC-49",
+      "name": "Successful integration is confirmed with a status indicator.",
+      "user_story": "Connect to Marketing Tools",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/models/post_test.rb"
+    },
+    {
+      "id": "AC-50",
+      "name": "System generates alerts for critical errors (e.g., server downtime, database connection issues).",
+      "user_story": "System Health Monitoring",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/admin_system_test.rb"
+    },
+    {
+      "id": "AC-51",
+      "name": "System logs application performance metrics (e.g., response times, resource utilization).",
+      "user_story": "System Health Monitoring",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/analytics/Analytics.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/admin_system_test.rb"
+    },
+    {
+      "id": "AC-52",
+      "name": "Monitoring data is accessible to admin via a dedicated dashboard (e.g., /admin/monitoring).",
+      "user_story": "System Health Monitoring",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/admin_system_test.rb"
+    },
+    {
+      "id": "AC-53",
+      "name": "System performs automated daily backups of all application data.",
+      "user_story": "Data Backup and Restore",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "server/lib/tasks/backup.rake",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/admin_system_test.rb"
+    },
+    {
+      "id": "AC-54",
+      "name": "Backup files are stored securely and redundantly.",
+      "user_story": "Data Backup and Restore",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "server/lib/tasks/backup.rake",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/admin_system_test.rb"
+    },
+    {
+      "id": "AC-55",
+      "name": "admin can initiate a data restore process from a recent backup.",
+      "user_story": "Data Backup and Restore",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/admin_system_test.rb"
+    },
+    {
+      "id": "AC-56",
+      "name": "content_team_member cannot access /admin routes.",
+      "user_story": "Role-Based Access Control",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/admin_system_test.rb"
+    },
+    {
+      "id": "AC-57",
+      "name": "admin has full access to all application features and data.",
+      "user_story": "Role-Based Access Control",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/admin_system_test.rb"
+    },
+    {
+      "id": "AC-58",
+      "name": "Unauthorized access attempts are logged and blocked.",
+      "user_story": "Role-Based Access Control",
+      "phase": "Phase 2: Analytics & Integrations",
+      "status": "tested",
+      "subtasks": [
+        "client/src/routes/custom.jsx (useRoles guard)",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/admin_system_test.rb"
+    },
+    {
+      "id": "AC-59",
+      "name": "Needs virtual attributes views, hasVideo, videoDuration, and date on Post.",
+      "user_story": "Extra: Virtual attributes on Post",
+      "phase": "Extras",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/media/MediaLibrary.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/posts_test.rb"
+    },
+    {
+      "id": "AC-60",
+      "name": "A custom endpoint to aggregate content performance metrics for the Dashboard and Analytics pages.",
+      "user_story": "Extra: Analytics Summary API",
+      "phase": "Extras",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/analytics/Analytics.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/analytics_test.rb"
+    },
+    {
+      "id": "AC-61",
+      "name": "Custom endpoints for fetching system performance metrics and settings for Admin screens.",
+      "user_story": "Extra: Admin System Endpoints",
+      "phase": "Extras",
+      "status": "tested",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/admin_system_test.rb"
+    },
+    {
+      "id": "AC-62",
+      "name": "Admin viewing system settings and generating system reports is functional and accessible from the sidebar.",
+      "user_story": "Gap compensation: Admin System Settings & Reports (SITEMAP_PAGE_NO_AC)",
+      "phase": "Gap Compensation",
+      "status": "tested",
+      "compensated_from_gap": "SITEMAP_PAGE_NO_AC",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/admin_system_test.rb"
+    },
+    {
+      "id": "AC-63",
+      "name": "Admin Dashboard overview is functional and provides navigation/summary for the admin.",
+      "user_story": "Gap compensation: Admin Dashboard Overview (SITEMAP_PAGE_NO_AC)",
+      "phase": "Gap Compensation",
+      "status": "tested",
+      "compensated_from_gap": "SITEMAP_PAGE_NO_AC",
+      "subtasks": [
+        "client/src/components/admin/Admin.tsx + route in client/src/routes/custom.jsx",
+        "Verified backend and frontend integration"
+      ],
+      "test_name": "test/integration/api/admin_system_test.rb"
+    }
+  ],
+  "updated_at": "2026-10-14T22:32:29.125296+00:00",
+  "compliance": {
+    "implemented": 63,
+    "partial": 0,
+    "missing": 0,
+    "total": 63,
+    "score": 100.0,
+    "gates": [
+      {
+        "name": "backend",
+        "status": "passed",
+        "artifact": ".codalio/backend-gate.json",
+        "failures": []
+      },
+      {
+        "name": "frontend",
+        "status": "passed",
+        "artifact": ".codalio/frontend-gate.json",
+        "failures": []
+      },
+      {
+        "name": "runtime",
+        "status": "passed",
+        "artifact": ".codalio/runtime-smoke.json",
+        "failures": []
+      }
+    ]
+  }
+}

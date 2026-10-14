@@ -1,0 +1,7 @@
+roles:
+  admin:
+    name: Admin
+  content_team_member:
+    name: Content Team Member
+  viewer:
+    name: Viewer

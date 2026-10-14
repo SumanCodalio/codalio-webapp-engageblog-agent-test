@@ -1,0 +1,30 @@
+{
+  "backend_stack": "rhino-rails",
+  "checks": [
+    "tests"
+  ],
+  "client_stack": "rhino-react",
+  "command": [
+    "bundle",
+    "exec",
+    "rails",
+    "test"
+  ],
+  "executed_at": "2026-10-14T22:30:02.196653+00:00",
+  "execution_id": "ef14442b-bca0-44a2-b20d-f467cab5ffc7",
+  "failures": [],
+  "gate": "backend",
+  "profile": "rhino-rails",
+  "result": {
+    "errors": 0,
+    "failures": 0,
+    "returncode": 0,
+    "tests": 39
+  },
+  "rhino_runtime": "v4",
+  "schema": "codalio.generation-evidence",
+  "source_files": 134,
+  "source_sha256": "7d14a6d7f051b882fb956ce19911e74bcd1b6a06b8b4b657b152a4d30bb3cece",
+  "status": "passed",
+  "version": 1
+}

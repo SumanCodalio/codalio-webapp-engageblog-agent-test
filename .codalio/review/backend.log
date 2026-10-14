@@ -1,0 +1,21 @@
+bin/rails aborted!
+ActiveRecord::EnvironmentMismatchError: You are attempting to modify a database that was last run in `development` environment. (ActiveRecord::EnvironmentMismatchError)
+You are running in `test` environment. If you are sure you want to continue, first set the environment using:
+
+        bin/rails db:environment:set RAILS_ENV=test
+
+
+Tasks: TOP => db:test:load_schema => db:test:purge => db:check_protected_environments
+(See full trace by running task with --trace)
+Running 39 tests in a single process (parallelization threshold is 50)
+Run options: --seed 22239
+
+# Running:
+
+............{"data":[{"id":165,"organization_id":343,"user_id":516,"title":"Live","content":null,"status":"published","category":"general","read_time":null,"published_at":null,"views":0,"hasVideo":false,"videoDuration":0,"date":null}]}
+........{"id" => 173, "organization_id" => 351, "user_id" => 532, "title" => "Live", "content" => nil, "status" => "published", "category" => "general", "read_time" => nil, "published_at" => "2023-10-20T00:00:00.000Z", "views" => 0, "hasVideo" => false, "videoDuration" => 0, "date" => "2023-10-20"}
+......{"token":"KXB9tXr9xz62uYzsbrsswdCF","organization_slug":"test-org-2721"}
+.............
+
+Finished in 1.416916s, 27.5246 runs/s, 52.2261 assertions/s.
+39 runs, 74 assertions, 0 failures, 0 errors, 0 skips

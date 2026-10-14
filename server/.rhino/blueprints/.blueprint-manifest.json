@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "generated_at": "2026-10-14T16:40:35-04:00",
+  "files": {
+    "posts.yaml": {
+      "content_hash": "45f14486a15adc81805b31a06c42aaae8597c2268f73dce69dafab404f345899",
+      "generated_files": [
+        "app/models/post.rb",
+        "db/migrate/20261014204035_create_posts.rb",
+        "spec/factories/posts.rb",
+        "app/models/scopes/post_scope.rb",
+        "app/policies/post_policy.rb",
+        "spec/models/post_spec.rb"
+      ],
+      "generated_at": "2026-10-14T16:40:35-04:00"
+    },
+    "analytics_data.yaml": {
+      "content_hash": "0075cc0813920868d13ad828368653f71b792b389bbe277b1a186c37192f3076",
+      "generated_files": [
+        "app/models/analytics_data.rb",
+        "db/migrate/20261014204036_create_analytics_data.rb",
+        "spec/factories/analytics_data.rb",
+        "app/models/scopes/analytics_data_scope.rb",
+        "app/policies/analytics_data_policy.rb",
+        "spec/models/analytics_data_spec.rb"
+      ],
+      "generated_at": "2026-10-14T16:40:35-04:00"
+    },
+    "videos.yaml": {
+      "content_hash": "3eaf5485705def0173396ce274df428c083c00599493b1aadd9dbd309b178f8a",
+      "generated_files": [
+        "app/models/video.rb",
+        "db/migrate/20261014204037_create_videos.rb",
+        "spec/factories/videos.rb",
+        "app/models/scopes/video_scope.rb",
+        "app/policies/video_policy.rb",
+        "spec/models/video_spec.rb"
+      ],
+      "generated_at": "2026-10-14T16:40:35-04:00"
+    }
+  }
+}

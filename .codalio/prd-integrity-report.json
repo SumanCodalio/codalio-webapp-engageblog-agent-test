@@ -1,0 +1,43 @@
+{
+  "gaps": [
+    {
+      "code": "SITEMAP_PAGE_NO_AC",
+      "severity": "medium",
+      "message": "Sitemap includes /admin/system-settings and /admin/system-reports, but there are no explicit user stories for admin interacting with these pages (only a general 'System Health Monitoring' system story mentioning /admin/monitoring).",
+      "compensation_hint": "Add compensated AC rows for Admin viewing system settings and generating system reports, linked to the prototype's AdminSystemSettings and AdminSystemReports pages."
+    },
+    {
+      "code": "SITEMAP_PAGE_NO_AC",
+      "severity": "medium",
+      "message": "Sitemap includes /admin (Admin Panel root), but no user story explicitly defines what is shown on the admin dashboard.",
+      "compensation_hint": "Add a compensated AC row for the Admin Dashboard overview, linking it to the Admin.tsx prototype page."
+    },
+    {
+      "code": "VAGUE_STORY_ROLE",
+      "severity": "low",
+      "message": "Persona specifies 'content_manager' but user stories use 'content_team_member'.",
+      "compensation_hint": "Normalize the role slug to 'content_team_member' in _roles.yaml and treat 'content_manager' as the same."
+    }
+  ],
+  "summary": {
+    "gap_count": 3
+  },
+  "role_registry": [
+    "admin",
+    "content_team_member"
+  ],
+  "coverage_matrix": [
+    { "key_feature": "Analytics Dashboard", "status": "covered" },
+    { "key_feature": "Video Content Support", "status": "covered" },
+    { "key_feature": "Content Publishing Tools", "status": "covered" },
+    { "key_feature": "User Management", "status": "covered" },
+    { "key_feature": "API Integrations", "status": "covered" },
+    { "key_feature": "Scalability & Security", "status": "covered" },
+    { "key_feature": "Monitoring & Reporting", "status": "covered" }
+  ],
+  "hints_for_planner": [
+    "Ensure the AdminSystemSettings, AdminSystemReports, and Admin pages are routed and have ACs generated.",
+    "Define virtual attributes or aggregate queries in Extras for AnalyticsData so the Dashboard can display 'Views' and 'Engagement' per Post."
+  ],
+  "updated_at": "2023-10-26T00:00:00Z"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Plan and list acceptance criteria",
+    "notes": "Read .codalio/acceptance-criteria.json and .rhino-plan.md, list all ACs",
+    "status": "done"
+  },
+  {
+    "title": "Read and review existing tests",
+    "notes": "Review blueprint-generated tests under server/test/",
+    "status": "done"
+  },
+  {
+    "title": "Write feature and integration tests",
+    "notes": "Write tests for every single AC, including Extras and missing integration coverage",
+    "status": "done"
+  },
+  {
+    "title": "Run test suite and fix failures",
+    "notes": "Run bundle exec rails test (up to 3 times) and fix issues",
+    "status": "done"
+  },
+  {
+    "title": "Update acceptance criteria tracking",
+    "notes": "Update status to tested and set test_name in acceptance-criteria.json",
+    "status": "done"
+  },
+  {
+    "title": "Run runtime smoke self-check",
+    "notes": "Run runtime_app_smoke.py and fix any failures",
+    "status": "done"
+  }
+]

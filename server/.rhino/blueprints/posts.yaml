@@ -1,0 +1,49 @@
+model: Post
+slug: posts
+options:
+  belongs_to_organization: true
+columns:
+  user_id:
+    type: foreignId
+    foreign_model: User
+  title:
+    type: string
+    required: true
+  content:
+    type: text
+  status:
+    type: string
+    required: true
+  category:
+    type: string
+    required: true
+  read_time:
+    type: integer
+  published_at:
+    type: datetime
+permissions:
+  admin:
+    actions:
+    - index
+    - show
+    - store
+    - update
+    - destroy
+    create_fields: '*'
+    update_fields: '*'
+    read_fields: '*'
+  content_team_member:
+    actions:
+    - index
+    - show
+    - store
+    - update
+    - destroy
+    create_fields: '*'
+    update_fields: '*'
+    read_fields: '*'
+  viewer:
+    actions:
+    - index
+    - show
+    read_fields: '*'

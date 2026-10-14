@@ -1,0 +1,19 @@
+model: AnalyticsData
+slug: analytics_data
+options:
+  belongs_to_organization: true
+columns:
+  post:
+    type: foreignId
+    foreign_model: Post
+  event_type:
+    type: string
+  event_data:
+    type: json
+  recorded_at:
+    type: datetime
+permissions:
+  admin:
+    actions: [index, show, store, update, destroy]
+  content_team_member:
+    actions: [index, show, store, update, destroy]

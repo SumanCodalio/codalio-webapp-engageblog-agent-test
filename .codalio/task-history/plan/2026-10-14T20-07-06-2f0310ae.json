@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Phase 0 \u2014 PRD integrity audit",
+    "notes": "Cross-section PRD gap analysis",
+    "status": "done"
+  },
+  {
+    "title": "Data model design",
+    "notes": "Write blueprint YAMLs",
+    "status": "done"
+  },
+  {
+    "title": "Permissions and Extras design",
+    "notes": "Plan permissions and hand-coded Extras",
+    "status": "done"
+  },
+  {
+    "title": "Screens and handoff design",
+    "notes": "Identify screens and write ui-handoff.json",
+    "status": "done"
+  },
+  {
+    "title": "Acceptance criteria and remaining artifacts",
+    "notes": "Write .rhino-plan.md, acceptance-criteria.json, and index.json",
+    "status": "done"
+  }
+]

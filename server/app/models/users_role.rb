@@ -1,0 +1,1 @@
+class UsersRole < UserRole; end

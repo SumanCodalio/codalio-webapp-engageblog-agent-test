@@ -1,0 +1,32 @@
+model: Video
+slug: videos
+options:
+  belongs_to_organization: true
+columns:
+  user:
+    type: foreignId
+    foreign_model: User
+  post:
+    type: foreignId
+    foreign_model: Post
+  title:
+    type: string
+  url:
+    type: string
+  duration:
+    type: integer
+  format:
+    type: string
+  size:
+    type: integer
+  resolution:
+    type: string
+  bitrate:
+    type: integer
+  thumbnail:
+    type: string
+permissions:
+  admin:
+    actions: [index, show, store, update, destroy]
+  content_team_member:
+    actions: [index, show, store, update, destroy]

@@ -1,0 +1,79 @@
+{
+  "backend_stack": "rhino-rails",
+  "checks": [
+    "readiness:frontend",
+    "readiness:backend:/up",
+    "frontend:load",
+    "authentication:admin_login",
+    "authentication:unauthenticated_denial",
+    "tenant:organization_selection",
+    "tenant:scoped_route",
+    "crud:list",
+    "crud:read",
+    "validation:invalid_payload_rejected",
+    "authorization:limited_role_read",
+    "authorization:limited_role_denial",
+    "crud:create",
+    "crud:update",
+    "tenant:second_tenant_login",
+    "tenant:second_tenant_denial",
+    "crud:delete"
+  ],
+  "client_stack": "rhino-react",
+  "command": [
+    "host-http-runtime-smoke"
+  ],
+  "executed_at": "2026-10-14T22:30:17.237111+00:00",
+  "executed_checks": [
+    "readiness:frontend",
+    "readiness:backend:/up",
+    "frontend:load",
+    "authentication:admin_login",
+    "authentication:unauthenticated_denial",
+    "tenant:organization_selection",
+    "tenant:scoped_route",
+    "crud:list",
+    "crud:read",
+    "validation:invalid_payload_rejected",
+    "authorization:limited_role_read",
+    "authorization:limited_role_denial",
+    "crud:create",
+    "crud:update",
+    "tenant:second_tenant_login",
+    "tenant:second_tenant_denial",
+    "crud:delete"
+  ],
+  "execution_id": "18a16a6b-1fed-4dec-9fdc-58d081c85d62",
+  "failures": [],
+  "flow": [
+    "listed seeded Post",
+    "created Post",
+    "updated Post",
+    "deleted Post"
+  ],
+  "gate": "runtime",
+  "health_path": "/up",
+  "result": {
+    "checks": 17,
+    "failures": 0,
+    "returncode": 0
+  },
+  "rhino_runtime": "v4",
+  "routes": [
+    "/",
+    "/login",
+    "/create-post",
+    "/media-library",
+    "/analytics",
+    "/admin",
+    "/admin/users",
+    "/admin/api-integrations",
+    "/admin/system-settings",
+    "/admin/system-reports"
+  ],
+  "schema": "codalio.generation-evidence",
+  "source_files": 214,
+  "source_sha256": "b3d0e375f4649a77457364a86f263a32bb01a39013f4572ec40d676fb1e26761",
+  "status": "passed",
+  "version": 1
+}
